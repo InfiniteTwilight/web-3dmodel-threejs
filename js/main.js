@@ -34,6 +34,7 @@ loader.load(
     object = gltf.scene;
     scene.add(object);
     object.scale.set( 2, 2, 2 );
+    mesh.scale.set(2,2,2);
   },
   function (xhr) {
     //While it is loading, log the progress
