@@ -8,11 +8,11 @@ import { GLTFLoader } from "https://cdn.skypack.dev/three@0.129.0/examples/jsm/l
 //Create a Three.JS Scene
 const scene = new THREE.Scene();
 //create a new camera with positions and angles
-const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
+const camera = new THREE.PerspectiveCamera(500, window.innerWidth / window.innerHeight, 0.1, 1000);
 
 //Keep track of the mouse position, so we can make the eye move
-let mouseX = window.innerWidth / 2;
-let mouseY = window.innerHeight / 2;
+let mouseX = window.innerWidth / 200;
+let mouseY = window.innerHeight / 200;
 
 //Keep the 3D object on a global variable so we can access it later
 let object;
